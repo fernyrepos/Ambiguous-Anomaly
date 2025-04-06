@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+	<name>Ambiguous Anomaly</name>
+	<author>ferny</author>
+	<packageId>ferny.ambiguousanomaly</packageId>
+	<supportedVersions>
+		<li>1.5</li>
+	</supportedVersions>
+	<description>Makes Anomaly overall more vague and integrated, to further the mystery for new players.</description>
+	<loadAfter>
+		<li>Ludeon.Rimworld</li>
+		<li>Ludeon.Rimworld.Royalty</li>
+		<li>Ludeon.Rimworld.Ideology</li>
+		<li>Ludeon.Rimworld.Biotech</li>
+		<li>Ludeon.Rimworld.Anomaly</li>
+		<li>vanillaexpanded.vfepropsanddecor</li>
+	</loadAfter>
+</ModMetaData>

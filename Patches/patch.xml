@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>   
+<!-- Rename category -->   
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/DesignationCategoryDef[defName="Anomaly"]/label</xpath>
+                    <value>
+                        <label>Monolith</label>
+                    </value>
+                </Operation>      
+<!-- Research  -->   
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ResearchTabDef[defName="Anomaly"]/label</xpath>
+                    <value>
+                        <label>Dark</label>
+                    </value>
+                </Operation>      
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ResearchTabDef[defName="Anomaly"]/generalTitle</xpath>
+                    <value>
+                        <generalTitle>Dark research</generalTitle>
+                    </value>
+                </Operation>     
+ 
+<!-- Rename other shit -->   
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/MonolithLevelDef[defName="Stirring"]/activatedLetterText</xpath>
+                    <value>
+                        <activatedLetterText>As the monolith twisted and changed, {PAWN_nameDef} was overcome with a horrifying vision. In an instant, {PAWN_pronoun} understood.\n\nThe monolith is a doorway, just barely cracked open now. Something dark beyond imagination stirs on the other side, seeping into our reality.\n\nTerrified but excited, {PAWN_nameDef} is convinced {PAWN_pronoun} can learn more if given the time to study the monolith.\n\n - Building category unlocked: Monolith\n - Research tab unlocked: Dark research\n - Entity codex unlocked\n - You can now study the monolith and other entities to gain dark research.\n\n(*Gray)Note: You can adjust the percentage of major threats that will be horror-related at any point in the storyteller settings.(/Gray)</activatedLetterText>
+                    </value>
+                </Operation>     
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/AnomalyPlaystyleDef[defName="Disabled"]/label</xpath>
+                    <value>
+                        <label>Horror incidents disabled</label>
+                    </value>
+                </Operation>       
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/AnomalyPlaystyleDef[defName="Standard"]/description</xpath>
+                    <value>
+                        <description>The standard recommended experience. Horror threats are linked to the activation of the monolith.</description>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/AnomalyPlaystyleDef[defName="AmbientHorror"]/description</xpath>
+                    <value>
+                        <description>The monolith does not appear. Any horror threat can occur, but they will be rare by default. Good if you want to interact with horror content without it being the focus. Note: The monolith endgame cannot occur in this mode.</description>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/AnomalyPlaystyleDef[defName="Disabled"]/description</xpath>
+                    <value>
+                        <description>Horror threats do not occur. Good if you don’t want to interact with most horror content.</description>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/ThingDef[defName="HoldingPlatform"]/description</xpath>
+                    <value>
+                        <description>A platform for holding dangerous entities. The corners have eyelets where strong chains can be attached.\n\nDowned entities can be captured and secured on a holding platform, where they can be studied for dark knowledge. Increase containment strength by building strong walls and doors, and other special containment devices.</description>
+                    </value>
+                </Operation>
+</Patch>

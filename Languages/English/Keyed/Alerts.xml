@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <NeedAnomalyProject>Need dark research project</NeedAnomalyProject>
+  <NeedAnomalyProjectDesc>You have an entity marked for study but don't have a matching dark research project selected:</NeedAnomalyProjectDesc>
+  <NeedAnomalyProjectDescLine>Need {NAME} dark research project</NeedAnomalyProjectDescLine>
+  <NeedAnomalyProjectDescAppended>Open the research menu and select a project on the dark research tab.\n\nYou can have a basic and an advanced research project selected at the same time.\n\n(Click to open the research menu.)</NeedAnomalyProjectDescAppended>
+</LanguageData>

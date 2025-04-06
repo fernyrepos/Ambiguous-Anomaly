@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+  <NoActiveResearchProject>No active dark research project selected for {0} knowledge category.</NoActiveResearchProject>
+  <VoidMonolithInvestigatedText>The monolith's dark metallic surface is warm to the touch, and {PAWN_nameDef} thinks {PAWN_pronoun} can hear a faint hum emanating from inside. The lines on its dusty surface seem to squirm in unsettling patterns.\n\n{PAWN_nameDef} focuses on the shapes, trying to uncover their meaning.\n\nThe hum strengthens. The shapes begin to flow in {PAWN_nameDef}'s vision, but the surface isn't changing. Power begins to uncoil in the empty space all around. A black shape is forming in {PAWN_possessive} mind.\n\nThe monolith is stirring...</VoidMonolithInvestigatedText>
+  <VoidMonolithInvestigate>Keep focusing on the monolith</VoidMonolithInvestigate>
+  <VoidMonolithViewResearch>View dark research</VoidMonolithViewResearch>
+</LanguageData>
