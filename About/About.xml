@@ -5,6 +5,7 @@
 	<packageId>ferny.ambiguousanomaly</packageId>
 	<supportedVersions>
 		<li>1.5</li>
+		<li>1.6</li>
 	</supportedVersions>
 	<description>Makes Anomaly overall more vague and integrated, to further the mystery for new players.</description>
 	<loadAfter>
