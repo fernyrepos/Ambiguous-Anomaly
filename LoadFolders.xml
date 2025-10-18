@@ -2,5 +2,6 @@
   <v1.5>
     <li>/</li>
     <li IfModActive="vanillaexpanded.vfepropsanddecor">Mods and Shit/VFE Props</li>
+    <li IfModActive="zoarak.anomalyplat">Mods and Shit/Anomaly Research Asteroid</li>
   </v1.5>
 </loadFolders>

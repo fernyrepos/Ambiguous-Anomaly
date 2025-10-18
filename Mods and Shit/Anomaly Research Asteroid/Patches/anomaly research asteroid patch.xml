@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>   
+<!-- RESEARCH ASTEROID PATCH -->   
+
+
+
+<!-- original: orbital anomaly item stash -->
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/WorldObjectDef[defName="AbandonedAnomalyPlatform"]/label</xpath>
+                    <value>
+                        <label>orbital void research platform</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/QuestScriptDef[defName="Opportunity_AbandonedAnomalyPlatform"]/questNameRules/rulesStrings</xpath>
+                    <value>
+                        <rulesStrings>
+                            <li>questName->[adjective] [orbital] [stash_noun]</li>
+                            <li>questName->[orbital] [stash_noun]</li>
+                            
+                            <li>adjective->Hidden</li>
+                            <li>adjective->Ancient</li>
+                            <li>orbital->Orbital</li>
+                            <li>orbital->Asteroid</li>
+                            <li>stash_noun->Void Research Station</li>
+                            <li>stash_noun->Void Research Site</li>
+                        </rulesStrings>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/QuestScriptDef[defName="Opportunity_AbandonedAnomalyPlatform"]/questDescriptionRules/rulesStrings</xpath>
+                    <value>
+                        <rulesStrings>
+                            <li>questDescription->[discoveryMethod] an unusual asteroid orbiting the planet. The asteroid is shrouded in darkness with a hollow core which contains several structures.\n\nYou hear a distress signal from what sounds to be a researcher that is quickly cut off by a loud paniced scream.\n\nBe warned - the buildings may contain defense systems and possible dark threats.</li>
+                        </rulesStrings>
+                    </value>
+                </Operation>
+
+
+
+
+
+</Patch>

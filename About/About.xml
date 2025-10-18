@@ -7,6 +7,12 @@
 		<li>1.5</li>
 		<li>1.6</li>
 	</supportedVersions>
+	<modDependencies>
+		<li>
+			<packageId>Ludeon.Rimworld.Anomaly</packageId>
+			<displayName>Anomaly</displayName>
+		</li>
+	</modDependencies>
 	<description>Makes Anomaly overall more vague and integrated, to further the mystery for new players.</description>
 	<loadAfter>
 		<li>Ludeon.Rimworld</li>
@@ -14,6 +20,8 @@
 		<li>Ludeon.Rimworld.Ideology</li>
 		<li>Ludeon.Rimworld.Biotech</li>
 		<li>Ludeon.Rimworld.Anomaly</li>
+		<li>Ludeon.Rimworld.Odyssey</li>
 		<li>vanillaexpanded.vfepropsanddecor</li>
+		<li>zoarak.anomalyplat</li>
 	</loadAfter>
 </ModMetaData>
