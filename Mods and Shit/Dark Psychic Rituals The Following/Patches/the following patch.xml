@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>   
+
+<!-- DSR THE FOLLOWING -->
+
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/MorePsyRitualsSTNL.PsychicRitualDef_Anomally[defName="AnomallySTNL"]/label</xpath>
+                    <value>
+                        <label>invoke void ally</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <success>Always</success>
+                    <xpath>Defs/HediffDef[defName="PsyRituals_AnomallySTNL"]/label</xpath>
+                    <value>
+                        <label>void ally</label>
+                    </value>
+                </Operation>
+
+</Patch>
