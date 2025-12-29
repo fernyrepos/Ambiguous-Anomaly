@@ -6,5 +6,4 @@
   <LetterTextEntityDiscoveryResearch>Your discovery of {ENTITY_definite} has yielded new insights. You can now research the following dark projects</LetterTextEntityDiscoveryResearch>
   <VoidCuriosityText_Researched>{PAWN_nameDef} has begun to fixate on the void, and wishes to investigate it using the void provocation ritual.\n\nUse the void provocation ritual to discover and capture entities. Captured entities can be studied to complete dark research projects, or connected to a bioferrite harvester to generate bioferrite.\n\nPlace a psychic ritual spot to perform the void provocation ritual.</VoidCuriosityText_Researched>
   <VoidCuriosityText_NotResearched>{PAWN_nameDef} has begun to fixate on the void, and wishes to investigate it using the void provocation ritual.\n\nUse the void provocation ritual to discover and capture entities. Captured entities can be studied to complete dark research projects, or connected to a bioferrite harvester to generate bioferrite.\n\nResearch void provocation, then place a psychic ritual spot to perform the ritual.</VoidCuriosityText_NotResearched>
-
 </LanguageData>

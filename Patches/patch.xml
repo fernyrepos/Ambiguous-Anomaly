@@ -58,4 +58,13 @@
                         <description>A platform for holding dangerous entities. The corners have eyelets where strong chains can be attached.\n\nDowned entities can be captured and secured on a holding platform, where they can be studied for dark knowledge. Increase containment strength by building strong walls and doors, and other special containment devices.</description>
                     </value>
                 </Operation>
+
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>Defs/IncidentDef[defName="SmallShamblerSwarm"]/letterText</xpath>
+                    <value>
+                        <letterText>A group of {0} shambling, rotting corpses is approaching. Some inhuman force has reanimated these lifeless bodies and set them to murder.\n\nThey will now wander through the area. If they see a human, they will attack. If not, they will leave in a few days.\n\nIf you can capture one, you can study it for dark knowledge.</letterText>
+                    </value>
+                </Operation>
+
 </Patch>
